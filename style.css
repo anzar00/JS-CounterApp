@@ -1,0 +1,65 @@
+/* Adding CSS to the counter */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #04091d;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.counter{
+    background-color: #f7631b;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.counter h2, .count {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: none;
+    background-color: #fff;
+    color: #f7631b;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.decrease {
+    background-color: #f03e3e;
+    color: #fff;
+}
+
+.reset {
+    background-color: #fff;
+    color: #f7631b;
+}
+
+.increase {
+    background-color: #37b24d;
+    color: #fff;
+}
