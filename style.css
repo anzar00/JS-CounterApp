@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #04091d;
+    background-color: #ce4c0c;
     font-family: 'Poppins', sans-serif;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@ body{
 }
 
 .counter{
-    background-color: #f7631b;
+    background-color: #04091d;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -33,10 +33,14 @@ body{
     margin-bottom: 10px;
 }
 
+.count {
+    font-size: 4rem;
+}
+
 .btn {
     border: none;
     background-color: #fff;
-    color: #f7631b;
+    color: #04091d;
     padding: 5px;
     border-radius: 5px;
     font-size: 1rem;
@@ -56,7 +60,6 @@ body{
 
 .reset {
     background-color: #fff;
-    color: #f7631b;
 }
 
 .increase {
